@@ -41,7 +41,7 @@ function displayRecipes(recipes) {
     ) {
       badgeColor = "medium";
     } else {
-      badgeColor = "medium";
+      badgeColor = "high";
     }
 
     // ajouter la carte de html

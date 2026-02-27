@@ -1,0 +1,24 @@
+// 1. Nesting: t-9der t-kteb kolchi west l-card
+.recipes-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; // Bach y-jiw card t7t card m9addin
+
+  img {
+    width: 200px; // Dakchi li bghiti
+    border-radius: 12px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  // 2. Parent Selector: Bach t-t7kkem f l-badge
+  .nutre-badge {
+    &.low { color: green; }
+    &.medium { color: orange; }
+    &.high { color: red; }
+  }
+}
