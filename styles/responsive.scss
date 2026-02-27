@@ -22,3 +22,24 @@
     &.high { color: red; }
   }
 }
+.nutre-badge {
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+
+    // Had l-3alama "&" kat3ni "ila kan m3aha had l-class"
+    &.low {
+        background-color: #d1fae5;
+        color: #065f46;
+    }
+
+    &.medium {
+        background-color: #fef3c7;
+        color: #92400e;
+    }
+
+    &.high {
+        background-color: #fee2e2;
+        color: #991b1b;
+    }
+}

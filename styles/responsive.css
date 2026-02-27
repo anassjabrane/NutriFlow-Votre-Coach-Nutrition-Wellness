@@ -22,4 +22,22 @@
   color: red;
 }
 
+.nutre-badge {
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.nutre-badge.low {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+.nutre-badge.medium {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+.nutre-badge.high {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
 /*# sourceMappingURL=responsive.css.map */

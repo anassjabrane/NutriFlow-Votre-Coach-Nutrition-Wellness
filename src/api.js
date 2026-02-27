@@ -48,11 +48,12 @@ function displayRecipes(recipes) {
 
     const card = `
         <div class="recipes-card">
-             <img src="${recipe.image}" alt="${recipe.image}" width="150">
+             <img src="${recipe.image}" alt="${recipe.image}" >
 
             <h1>${recipe.name}</h1>
 
-            <span class="nutre-badge">${badgeColor}<p>${recipe.prepTimeMinutes}Kcal</p></span>
+            // Khass t-zad hna west l-class=""
+<span class="nutre-badge ${badgeColor}">${badgeColor}<p>${recipe.caloriesPerServing}Kcal</p></span>
 
         </div> `;
 
