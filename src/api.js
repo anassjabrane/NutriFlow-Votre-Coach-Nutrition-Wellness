@@ -58,5 +58,16 @@ function displayRecipes(recipes) {
     app.innerHTML = app.innerHTML + card;
   }
 }
+// chal 6////
 
+const serchinput = document.getElementById("serach");
+
+serchinput.addEventListener("input", (e) =>{
+    const texte = e.target.value.toLowerCase();
+    const filtrage = allrecipes.filter((recipe) =>{
+        return recipe.name.toLowerCase().includes(texte);
+    });
+    displayRecipes(filtrage);
+
+})
 getRecipes();
